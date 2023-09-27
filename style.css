@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'myfont';
+    text-align: center;
+     padding: 50px 50px;
+   /*background-image: url(img/lily.jpg);*/
+   color:white;
+   background-color:rgb(6, 5, 5);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: fixed;
+   overflow: hidden;
+   
+}
+.header-section{
+    margin-bottom: 70px;
+}
+.header-section h1{
+    border-bottom: 1px solid rgb(226, 223, 223);
+    display: inline-block;
+    width: 20%;
+    
+}
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    text-align: justify;
+    
+    
+}
+.main-section p{
+    margin: 0 20px;
+    
+    
+}
+.main-section #p2{
+    margin-top: 80px;
+}
+.hello{
+    color: red;
+}
+[type="text"] {
+    color: orange;
+  }
